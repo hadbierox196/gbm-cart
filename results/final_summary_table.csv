@@ -1,0 +1,8 @@
+Stage,Circuit,Metric,Value,Note
+Boolean,"SINGLE (hypoxia, best baseline)",Specificity ratio @80% sens,3.06,baseline
+Boolean,"OR (hypoxia, metabolite)",Specificity ratio @80% sens,21.8,top Boolean performer
+Boolean,AND (3-input),Specificity ratio @80% sens,9.2,
+Boolean,"AND_NOT (hypoxia, metabolite)",Max sensitivity achieved,0.719,never reaches 80% target
+"ODE (robustness sweep, n=1000)",OR,Specificity ratio (mean±std based),1.7745824826876606,"tumor 1.69±0.17, healthy 0.95±0.41"
+"ODE (robustness sweep, n=1000)",AND,Specificity ratio (mean±std based),4.8257064930738,"tumor 0.73±0.25, healthy 0.15±0.17"
+"ODE (robustness sweep, n=1000)",AND_NOT,Specificity ratio (mean±std based),12.803248999127144,"tumor 0.60±0.23, healthy 0.05±0.06"
