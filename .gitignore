@@ -1,0 +1,24 @@
+# Checkpoints and generated results (regenerate via the notebook / pipeline — see results/README.md)
+results/*.png
+results/*.csv
+results/checkpoints/
+checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
+
+# Colab
+/content/
